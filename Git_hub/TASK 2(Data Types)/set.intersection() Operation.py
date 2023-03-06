@@ -1,0 +1,5 @@
+n1=int(input("Enter number of students:" ))
+set1=set(map(int,input().split()))
+n2=int(input("Enter number of students:"))
+set2=set(map(int,input().split()))
+print(len(set1.intersection(set2)))
